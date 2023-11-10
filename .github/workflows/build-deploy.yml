@@ -1,5 +1,6 @@
 name: Build and Deploy sub-action
 on:
+  workflow_dispatch:
   workflow_call:
     # Define the inputs required for the action to run
     inputs:
